@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/grayBackground"
+    tools:context=".LogInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="30dp"
+
+        >
+        <ImageView
+            android:id="@+id/logIn_log"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:padding="5dp"/>
+        <EditText
+            android:id="@+id/logIn_Email"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Email"
+            android:layout_marginVertical="5dp"
+            android:padding="5dp"
+            />
+        <EditText
+            android:id="@+id/logIn_Password"
+            android:padding="5dp"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textWebPassword"
+            android:layout_marginVertical="5dp"
+            />
+        <Button
+            android:id="@+id/logIn_submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="16sp"
+            android:layout_marginVertical="5dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/logIn_I_have_not_Account"
+        android:layout_width="wrap_content"
+        android:layout_height="16sp"
+        android:text="I Have not Account ? Sign UP"
+        android:textColor="@color/lightgreen"
+        />
+
+</LinearLayout>

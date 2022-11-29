@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204409822206",
+    "project_id": "vehicleproject-87a46",
+    "storage_bucket": "vehicleproject-87a46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204409822206:android:3f1ce9e59dc40a1759beaf",
+        "android_client_info": {
+          "package_name": "com.pcsolution.vehicleproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204409822206-k6iolbf3ue0n5tkt0efavct39bt3qo1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDINtv0SbPnemxXp2K1cwS-SRhdkZkJAjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204409822206-k6iolbf3ue0n5tkt0efavct39bt3qo1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
